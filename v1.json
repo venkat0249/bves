@@ -1,0 +1,58 @@
+{
+  "nameplate": {
+     "BVESProtVersion"         : "1",
+     "manufacturer"            : "Company Name",
+     "model  "                 : "Model Name",
+     "hardware_version"        : "M123456",
+     "product_code"            : "459845-35345-3453465",
+     "serial_number"           : "S1234-B4567",
+     "firmware_version"        : "1.2.3",
+     "available_control_modes" : ["A_VISUALIZATION", "B1_PARAMETER_CONTROL"],
+     "grid_code"               : "DE/FNN:2019",
+     "description"             : "my battery",
+     "p_charge_nominal_max"    : 2600,
+     "p_discharge_nominal_max" : 2400,
+     "e_capacity_nominal"      : 6000
+ },
+ 
+  "serial_number":  {
+     "serial_number" : "S1234-B4567"
+ },
+ 
+  "data":  {
+     "p"                        : 1001.42,
+     "p_setpoint_charge_max"    : 2600,
+     "p_setpoint_discharge_max" : 2400,
+     "soc"                      : 75.14,
+     "soh"                      : 98.76,
+     "temperature"              : 42.17,
+     "cycles"                   : 876,
+     "status"                   : "ON",
+     "control_mode"             : "B1_PARAMETER_CONTROL",
+     "p_gcp"                    : -9,
+     "p_gcp_l1"                 : 500,
+     "p_gcp_l2"                 : -260,
+     "p_gcp_l3"                 : -249,
+     "p_gcp_setpoint"           : -10,
+ },
+ 
+  "status":  {
+     "status" : "ON"
+ },
+ 
+   "command":  {
+     "success"           : true,
+     "timeout_reset"     : 10,
+     "old" : {
+         "p_gcp_setpoint" : -10
+     },
+     "new" : {
+         "p_gcp_setpoint" : 500
+     }
+ },
+
+  "auth":  {
+     "token" : "kzouul38722dfhudsfjfdfdslfiewwr3wr347334342432gduew3"
+ }
+ 
+}
