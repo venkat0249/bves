@@ -1,4 +1,20 @@
 {
+ {
+  "nameplate": {
+     "BVESProtVersion"         : "1",
+     "manufacturer"            : "Company Name",
+     "model  "                 : "Model Name",
+     "hardware_version"        : "M123456",
+     "product_code"            : "459845-35345-3453465",
+     "serial_number"           : "S1234-B4567",
+     "firmware_version"        : "1.2.3",
+     "available_control_modes" : ["A_VISUALIZATION", "B1_PARAMETER_CONTROL"],
+     "grid_code"               : "DE/FNN:2019",
+     "description"             : "my battery",
+     "p_charge_nominal_max"    : 2600,
+     "p_discharge_nominal_max" : 2400,
+     "e_capacity_nominal"      : 6000
+ },
   "posts": [
     {
       "id": 1,
