@@ -14,6 +14,26 @@
      "p_discharge_nominal_max" : 2400,
      "e_capacity_nominal"      : 6000
  },
+  "serial_number":  {
+     "serial_number" : "S1234-B4567"
+ },
+ 
+  "data":  {
+     "p"                        : 1001.42,
+     "p_setpoint_charge_max"    : 2600,
+     "p_setpoint_discharge_max" : 2400,
+     "soc"                      : 75.14,
+     "soh"                      : 98.76,
+     "temperature"              : 42.17,
+     "cycles"                   : 876,
+     "status"                   : "ON",
+     "control_mode"             : "B1_PARAMETER_CONTROL",
+     "p_gcp"                    : -9,
+     "p_gcp_l1"                 : 500,
+     "p_gcp_l2"                 : -260,
+     "p_gcp_l3"                 : -249,
+     "p_gcp_setpoint"           : -10,
+ },
   "posts": [
     {
       "id": 1,
