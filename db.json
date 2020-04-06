@@ -48,4 +48,9 @@
          "p_gcp_setpoint" : 500
      }
  }
+  ,
+
+  "auth":  {
+     "token1" : "dfhudsfjfdfdslfiewwr3wr347334342432gduew3"
+ }
 }
