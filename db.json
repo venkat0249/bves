@@ -32,8 +32,26 @@
      "p_gcp_l1"                 : 500,
      "p_gcp_l2"                 : -260,
      "p_gcp_l3"                 : -249,
-     "p_gcp_setpoint"           : -10,
+     "p_gcp_setpoint"           : -10
  },
+    "status":  {
+     "status" : "ON"
+ },
+ 
+   "command":  {
+     "success"           : true,
+     "timeout_reset"     : 10,
+     "old" : {
+         "p_gcp_setpoint" : -10
+     },
+     "new" : {
+         "p_gcp_setpoint" : 500
+     }
+ },
+
+  "auth":  {
+     "token1" : "dfhudsfjfdfdslfiewwr3wr347334342432gduew3"
+ }
   "posts": [
     {
       "id": 1,
