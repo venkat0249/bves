@@ -2,7 +2,7 @@
   "nameplate": {
      "BVESProtVersion"         : "1",
      "manufacturer"            : "Company Name",
-     "model  "                 : "Model Name",
+     "model"                 : "Model Name",
      "hardware_version"        : "M123456",
      "product_code"            : "459845-35345-3453465",
      "serial_number"           : "S1234-B4567",
