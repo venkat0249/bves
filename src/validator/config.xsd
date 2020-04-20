@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="clientconfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="rootURL" type="xs:string" />
+        <xs:element name="username" type="xs:string" />
+        <xs:element name="password" type="xs:string" />
+        <xs:element name="token" type="xs:string" />
+        <xs:element name="endpoints">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="endpoint">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="endpointPath" type="xs:string" />
+                    <xs:element name="operation" type="xs:string" />
+                    <xs:element name="authRequired" type="xs:boolean" />
+                    <xs:element name="attributes">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="attribute">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="name" type="xs:string" />
+                                <xs:element name="datatype" type="xs:string" />
+                                <xs:element name="valuerange" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

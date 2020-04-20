@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clientconfig>
+    <rootURL>https://my-json-server.typicode.com/venkat0249/bves/</rootURL>
+    <username>admin</username>
+    <password>[C@422d287f</password>
+    <token>c51ef5c948f5054405bd75f45d096b42</token>
+    <endpoints>
+        <endpoint>
+            <endpointPath>nameplate</endpointPath>
+            <operation>GET</operation> <!--Allowed input: GET/POST  -->
+            <authRequired>false</authRequired>  <!--Is authentication required? Allowed input: true/false  -->
+            <attributes>
+            	<attribute>
+            		<name>BVESProtVersion</name>	<!--Name of the expected attribute within the endpoint path  -->
+              		<datatype>STRING</datatype>	<!--Datatype of the attribute. Allowed input: STRING/INT/DOUBLE -->
+                </attribute>
+                <attribute>
+            		<name>manufacturer</name>	
+              		<datatype>STRING</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>model</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>hardware_version</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>product_code</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>serial_number</name>	
+              		<datatype>STRING</datatype>	 
+                </attribute>
+                <attribute>
+            		<name>firmware_version</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>available_control_modes</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>grid_code</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                <attribute>
+            		<name>description</name>	
+              		<datatype>STRING</datatype>	
+                </attribute>
+                 <attribute>
+            		<name>p_charge_nominal_max</name>	
+              		<datatype>INT</datatype>	
+                </attribute>
+                <attribute>
+            		<name>p_discharge_nominal_max</name>	
+              		<datatype>INT</datatype>	 
+                </attribute>
+                <attribute>
+            		<name>e_capacity_nominal</name>	
+              		<datatype>INT</datatype>	
+                </attribute>
+            </attributes>
+        </endpoint>
+        <endpoint>
+        <endpointPath>data</endpointPath>
+            <operation>GET</operation> <!--Allowed input: GET/POST  -->
+            <authRequired>true</authRequired>  <!--Is authentication required? Allowed input: true/false  -->
+            <attributes>
+            	<attribute>
+            		<name>p</name>	<!--Name of the expected attribute within the endpoint path  -->
+              		<datatype>DOUBLE</datatype>	<!--Datatype of the attribute. Allowed input: STRING/INT/DOUBLE -->
+                </attribute>
+                <attribute>
+            		<name>p_setpoint_charge_max</name>	
+              		<datatype>INT</datatype>	
+                </attribute>
+                <attribute>
+            		<name>p_setpoint_discharge_max</name>	
+              		<datatype>INT</datatype>	
+                </attribute>
+                
+                <attribute>
+            		<name>soc</name>	
+              		<datatype>Double</datatype>	
+                </attribute>
+                <attribute>
+            		<name>soh</name>	
+              		<datatype>Double</datatype>	
+                </attribute>
+                <attribute>
+            		<name>temperature</name>	
+              		<datatype>Double</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>cycles</name>	
+              		<datatype>INT</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>status</name>	
+              		<datatype>STRING</datatype>	 
+                </attribute>
+                <attribute>
+            		<name>control_mode</name>	
+              		<datatype>STRING</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>p_gcp</name>	
+              		<datatype>INT</datatype>	 
+                </attribute>
+                <attribute>
+            		<name>p_gcp_l1</name>	
+              		<datatype>INT</datatype>	 
+                </attribute>
+                <attribute>
+            		<name>p_gcp_l2</name>	
+              		<datatype>INT</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>p_gcp_l3</name>	
+              		<datatype>INT</datatype>	  
+                </attribute>
+                <attribute>
+            		<name>p_gcp_setpoint</name>	
+              		<datatype>INT</datatype>	 
+                </attribute>
+                
+            </attributes>
+
+        </endpoint>
+        
+         <endpoint>
+        <endpointPath>command</endpointPath>
+            <operation>POST</operation> <!--Allowed input: GET/POST  -->
+            <authRequired>true</authRequired>  <!--Is authentication required? Allowed input: true/false  -->
+            <attributes>
+                <attribute>
+            		<name>p_gcp_setpoint</name>	
+              		<datatype>INT</datatype>	 
+                </attribute>
+                
+            </attributes>
+
+        </endpoint>
+        
+
+
+    </endpoints>
+ 
+</clientconfig>
